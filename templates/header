@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<link rel=stylesheet type=text/css href=css/bootstrap.css>
+<link rel=stylesheet type=text/css href=css/philosophy.css>
+<script src=//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js></script>
+<script src=js/prototype.js></script>
+<html>
+<head>
+<title>Road to Philosophy</title>
+<div id=header class=hero-unit>
+<h2 style=font-family:serif;padding:4px>Road to Philosophy</h2>
+<p class=lead>"If you take any Wikipedia article, click on the first link in the article text not in parentheses or italics, and then repeat, you will eventually end up at 'Philosophy'." (xkcd)</p>
+</div>
+</head>
+<body>
+<div id=main class=container-fluid>

@@ -1,0 +1,45 @@
+#top
+{
+	text-align: center;
+	font-family: Garamond;
+	font-size: 15px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+table 
+{ table-layout: fixed; }
+
+table th, table td 
+{ overflow: hidden; }
+
+.start
+{
+	text-align: center;
+	font-family: Garamond;
+	font-size: 15px;
+	margin-top: 15px;
+}
+.result
+{
+	text-align: center;
+	font-family: Garamond;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#footer {
+   position:fixed;
+   text-align: center;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
+
+#stylized
+{
+	margin: 0 auto;
+	width: 500px;
+	padding: 14px;
+}

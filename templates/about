@@ -1,0 +1,31 @@
+<div style=text-align:cener>
+    <nav>
+  		<ul class="nav nav-tabs">
+    		<li><a href="philosophy.php">App</a></li>
+    		<li><a href="stats.php">Stats</a></li>
+    		<li class="active"><a href="about.php">About</a></li>
+  		</ul>
+	</nav>
+</div>
+<div style=padding:20px>
+	<ul>
+	<li><div style=padding:20px>
+	<p>The <a href=http://xkcd.com/903 target=_blank>xkcd comic</a>. (See image text)</p>
+	</div>	</li>
+	
+	<li><div style=padding:20px>
+	<p>The <a href=http://en.wikipedia.org/wiki/Wikipedia:Get_to_Philosophy target=_blank>Wikipedia page on the phenomenon.</a></p>
+	</div></li>
+	
+	<li><div style=padding:20px>
+	<p><b>Some other implementations:</b></p>
+	
+	<ul>
+		<li style=padding:5px><a href=http://wikiosophy.appspot.com/ target=_blank>wikiosophy.appspot.com</a></li>
+		<li style=padding:5px><a href=http://creativeandcritical.net/xkcdwiki/ target=_blank>creativeandcritical.net/xkcdwiki</a></li>
+		<li style=padding:5px><a href=http://xefer.com/wikipedia target=_blank>xefer.com/wikipedia</a></li>
+		<li style=padding:5px><a href=http://www.brokenairplane.com/2011/05/wikipedia-game-python-philosophy.html target=_blank>A Python script</a></li>
+	</ul>
+	</div></li>
+		</ul>
+</div>

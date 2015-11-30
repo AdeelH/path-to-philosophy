@@ -1,0 +1,49 @@
+body
+{
+	background-color: #DBDBDB;
+}
+table 
+{ table-layout: fixed; }
+
+table th, table td 
+{ overflow: hidden; }
+
+.start
+{
+	text-align: center;
+	font-family: Garamond;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 15px;
+}
+.result
+{
+	text-align: center;
+	font-family: Garamond;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.loading
+{
+	text-align: center;
+	font-family: Garamond;
+	margin-bottom: 30px;
+}
+
+#footer {
+   position:fixed;
+   text-align: center;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
+
+#stylized
+{
+	margin: 0 auto;
+	width: 500px;
+	padding: 14px;
+}

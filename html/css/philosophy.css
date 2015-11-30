@@ -1,0 +1,27 @@
+table{table-layout:fixed}
+table th,table td{overflow:hidden}
+#label{text-align:center;margin-left:0px;position:relative}
+.start{text-align:center;font-family:Garamond;font-size:15px;margin-top:75px;position:relative}
+.result{text-align:center;font-family:Garamond;font-size:15px;font-weight:700}
+#footer{text-align:center;left:0;bottom:0;height:30px;width:99%;background:#999;padding:5px}
+#stylized{width:89.5%;position:absolute;text-align:center}
+body {background-color: #999;width:100%}
+#header {
+	margin-bottom: 10px;
+	border-bottom: thin solid black;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-left: thin solid black;
+	border-right: thin solid black;}
+#main {
+	min-height: 270px;
+	padding: 15px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 1%;
+	border-top: thin solid black;
+	border-left: thin solid black;
+	border-right: thin solid black;
+	border-bottom: thin solid black;
+	background-color: white;
+	border-radius: 6px;}

@@ -1,0 +1,29 @@
+<div style=text-align:cener>
+    <nav>
+  		<ul class="nav nav-tabs">
+    		<li><a href="philosophy.php">App</a></li>
+    		<li class="active"><a href="stats.php">Stats</a></li>
+    		<li><a href="about.php">About</a></li>
+  		</ul>
+	</nav>
+</div>
+<div>
+	<?php
+		echo "<table class=\"table table-striped\">";
+
+		echo "<tr> <th style=width:60%>Page Name ( <i>http://en.wikipedia.org/wiki/...</i> )</th> <th style=width:40%>Clicks to Philosophy</th> </tr> <tbody>";
+		foreach($values["stats"] as $i => $row)
+ 	   	{
+			echo "<tr>";
+			foreach($row as $key => $val)
+			{
+				if ($key == "page")
+					echo "<td><a href=http://en.wikipedia.org/wiki/$val target=_blank>$val</a></td>";
+				else
+					echo "<td>$val</td>";
+			}
+			echo "</tr>";
+		}
+		echo "</tbody> </table>";
+	?>	
+</div>
